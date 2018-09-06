@@ -1,2 +1,2 @@
- bundle exe cucumber -c --tag @Ice_First_Test test_env=test06 browser=chrome --format progress --format html --out=C:/ICE_Test_Framework/ICE-Automation-Test/features/support/ICE_Test_Reports/ICE_Automation_Report.html
+ bundle exe cucumber -c --tag @Ice_SA_Login_Test test_env=IceTestEnv browser=chrome --format progress --format html --out=C:/ICE_Test_Framework/ICE-Automation-Test/features/support/ICE_Test_Reports/ICE_Automation_Report.html
  Run econfig Exports: =bundle exe cucumber -c --tag @Ice_First_Test test_env=test06 browser=chrom

@@ -15,7 +15,7 @@
 test05:
   :host: https://qphisweb05.usda.net/FSISDashBoard/Shared/Login.aspx
 
-test06:
+IceTestEnv:
   :host: http://allianceone
 
 #  :dmzhost: http://dphisweb05.usda.net/EnrollmentDMZ

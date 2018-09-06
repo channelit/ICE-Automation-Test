@@ -7,11 +7,12 @@ Before do |scenario|
     # result_dir= "C:/test_results/"+"#{scenario_id[0]}"+"#{get_timestamp.to_s}"+".png"
     # @driver.save_screenshot(result_dir)
     #Do something if scenario fails.
-    if Configuration.host.downcase.include? 'score'
-      step 'the user navigates to /score on browser'
-      step "the user clicks the link with text \"Logout\""
+    if Configuration.host.downcase.include? 'IceTestEnv'
+      puts 'Test Failed See Console Output For Detail Reason For Failing'
+      @browser.close
     else
-      step "the user clicks on \"sign out button\" element on \"DispositionReporting/EstablishmentReporting\" page"
+      #step "the user clicks on \"sign out button\" element on \"DispositionReporting/EstablishmentReporting\" page"
+      puts 'Test Failed See Console Output For Detail Reason For Failing'
       @browser.close
     end
 
@@ -37,12 +38,13 @@ After do |scenario|
     # result_dir= "C:/test_results/"+"#{scenario_id[0]}"+"#{get_timestamp.to_s}"+".png"
     # @driver.save_screenshot(result_dir)
     #Do something if scenario fails.
-    if Configuration.host.downcase.include? 'score'
-      step 'the user navigates to /score on browser'
-      step "the user clicks the link with text \"Logout\""
+    if Configuration.host.downcase.include? 'IceTestEnv'
+      puts 'Test Failed See Console Output For Detail Reason For Failing'
+      @browser.close
     else
-      step "the user clicks on \"sign out button\" element on \"DispositionReporting/EstablishmentReporting\" page"
-      #@browser.close
+      #step "the user clicks on \"sign out button\" element on \"DispositionReporting/EstablishmentReporting\" page"
+      puts 'Test Failed See Console Output For Detail Reason For Failing'
+      @browser.close
     end
   end
   end

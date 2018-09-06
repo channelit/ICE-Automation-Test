@@ -1,1 +1,1 @@
-# ICE-RubyTest
+# ICE-Challenge-RubyTest

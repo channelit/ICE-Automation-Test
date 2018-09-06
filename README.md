@@ -1,1 +1,1 @@
-# ICE-Challenge-RubyTest
+# ICE-Challenge-Automation-Test

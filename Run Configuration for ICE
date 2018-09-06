@@ -1,2 +1,2 @@
-Run config ADR: bundle exe cucumber -c --tag @DOMESTIC_Questionnaire_AQADR,@DOMESTIC_Regression_UAT_AMDR,@DOMESTIC_ERT_Full_Features_Test,@DOMESTIC_SampleManagement_ADRT test_env=test05 browser=chrome
-Run config Exports: =bundle exe cucumber -c --tag @EXPORTS_LIBRARIAN_HQ test_env=test06 browser=chrome
+ bundle exe cucumber -c --tag @Ice_First_Test test_env=test06 browser=chrome --format progress --format html --out=C:/ICE_Test_Framework/ICE-Automation-Test/features/support/ICE_Test_Reports/ICE_Automation_Report.html
+ Run econfig Exports: =bundle exe cucumber -c --tag @Ice_First_Test test_env=test06 browser=chrom

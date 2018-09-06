@@ -16,7 +16,7 @@ test05:
   :host: https://qphisweb05.usda.net/FSISDashBoard/Shared/Login.aspx
 
 test06:
-  :host: https://qphisweb06.usda.net/FSISDashBoard/Shared
+  :host: http://allianceone
 
 #  :dmzhost: http://dphisweb05.usda.net/EnrollmentDMZ
 #  :server_name: QPHISSQL01
@@ -95,7 +95,7 @@ score_dev:
   :host: http://dphisweb05.usda.net
 
 score_test06:
-   :host: http://qphisweb06.usda.net
+   :host: http://allianceone
 
 score_test31:
    :host: http://qphisweb31.usda.net
